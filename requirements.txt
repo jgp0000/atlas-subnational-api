@@ -13,5 +13,5 @@ git+https://github.com/cid-harvard/classifications.git@v0.0.96#egg=linnaeus
 git+https://github.com/cid-harvard/reckoner.git@e2b55dbeac09a9f677dd83b41c6168b75872133c#egg=reckoner
 
 # Override atlas_core dependencies
-git+https://github.com/cid-harvard/flask-sqlalchemy.git@5599861ef61ac7c0f9139c525c61ab4ac0cef5b4#egg=flask-sqlalchemy
+git+https://github.com/Dandresfsoto/flask-sqlalchemy.git@2.2#egg=flask-sqlalchemy
 marshmallow==2.0.0b4
