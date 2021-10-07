@@ -9,7 +9,7 @@ if __name__ == "__main__":
         # TODO: monkey patch should probably happen before everything else
         from gevent import monkey; monkey.patch_all()
         from gevent.wsgi import WSGIServer
-        server = WSGIServer(("0",5000), application=app)
+        server = WSGIServer(("0.0.0.0",8001), application=app)
         server.serve_forever()
     else:
-        app.run(port=app.config["PORT"])
+        app.run(host="0.0.0.0", port=app.config["PORT"])
