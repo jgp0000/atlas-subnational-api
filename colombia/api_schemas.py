@@ -31,7 +31,7 @@ def fix_id_hook(self, data):
             "Please set schema.context['id_field_name']."
         )
 
-    value = data["location_id"]
+    value = data["location_id"] 
     del data["location_id"]
 
     data[key] = value
