@@ -13,7 +13,7 @@ services:
       - static_volume:/app/staticfiles
       - media_volume:/app/media
     ports:
-      - "8001:8001"
+      - "443:8001"
 
 volumes:
   static_volume:
